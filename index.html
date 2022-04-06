@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diogo Meireles</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              myorange: "#ffa630",
+              myblue: "#006cfb",
+              myyellow: "#eeb902",
+              mylightgreen: "#d7e8ba",
+              mydarkgreen: "#4da1a9",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- GOOGLE FONTS LINK -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BioRhyme&family=Limelight&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font-family: 'BioRhyme', serif;
+    font-family: 'Limelight', cursive; -->
+  </head>
+  <body
+    class="leading-normal tracking-normal text-gray-100 bg-cover bg-fixed scroll-smooth"
+    style="
+      font-family: 'BioRhyme', serif;
+      background-image: url('img/golden-deco.jpg');
+    "
+  >
+    <!-- NAVBAR --------------------------------------------------------------------------->
+
+    <nav
+      id="header"
+      class="w-full container mx-auto z-30 bg-white bg-opacity-20 shadow-lg bg-clip-padding top-0 fixed"
+      style="backdrop-filter: blur(10px); font-family: 'Limelight', cursive"
+    >
+      <div
+        class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2"
+      >
+        <div class="pl-4 flex items-center">
+          <a
+            class="nav-element toggleColour flex items-center bg-clip-text text-gray-100 opacity-90 no-underline hover:no-underline transform hover:scale-100 duration-300 ease-in-out font-bold text-2xl lg:text-4xl"
+            href="#"
+          >
+            <span
+              class="text-5xl bg-clip-text text-gray-900 font-extrabold bg-transparent"
+              >Olá!</span
+            >
+          </a>
+        </div>
+        <div class="block lg:hidden pr-4">
+          <button
+            id="nav-toggle"
+            class="flex items-center p-1 text-myorange opacity-90 hover:text-myyellow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+          >
+            <svg
+              class="fill-current h-6 w-6"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-cover lg:bg-transparent text-black p-4 lg:p-0 z-20"
+          id="nav-content"
+        >
+          <ul
+            class="lg:text-xl list-reset lg:flex justify-end flex-1 items-center"
+          >
+            <li class="mr-3">
+              <a
+                class="nav-element block lg:inline-block text-gray-900 opacity-90 no-underline hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-105 duration-300 ease-in-out lg:border-none border-myorange border-b-2 hover:opacity-100"
+                href="#aboutme"
+                ><strong>BACK TO TOP</strong></a
+              >
+            </li>
+
+            <li class="mr-3">
+              <a
+                class="nav-element block lg:inline-block text-gray-900 opacity-90 no-underline hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-105 duration-300 ease-in-out lg:border-none border-myorange border-b-2 hover:opacity-100"
+                href="#certs"
+                ><strong>MY WORK</strong></a
+              >
+            </li>
+
+            <li class="mr-3">
+              <a
+                class="nav-element block lg:inline-block text-gray-900 opacity-90 no-underline hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-105 duration-300 ease-in-out lg:border-none border-myorange border-b-2 hover:opacity-100"
+                href="#portfolio"
+                ><strong>BACKGROUND AND SKILLS</strong></a
+              >
+            </li>
+
+            <li class="mr-3">
+              <a
+                class="nav-element block lg:inline-block text-gray-900 opacity-90 no-underline hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-105 duration-300 ease-in-out lg:border-none border-myorange border-b-2 hover:opacity-100"
+                href="resume.html"
+                ><strong>CONTACT</strong></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr class="border-b border-myorange opacity-90 my-0 py-0" />
+    </nav>
+    <!-- MAIN CONTAINER  --------------------------------------------------------------------->
+
+    <main>
+      <!-- NAME AND TITLE - HOME -------------------------------------------------------->
+      <section></section>
+      <!-- MY WORK -->
+      <section></section>
+
+      <!-- BACKGROUND AND SKILLS --------------------------------------------------------------->
+
+      <section></section>
+
+      <!-- CONTACT -->
+      <section></section>
+
+      <!-- FOOTER -->
+      <section></section>
+    </main>
+    <script>
+      /*Toggle dropdown list*/
+      /*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
+
+      var navMenuDiv = document.getElementById("nav-content");
+      var navMenu = document.getElementById("nav-toggle");
+
+      // blink------------------------------------------
+
+      var blink_speed = 500;
+      var t = setInterval(function () {
+        var ele = document.getElementsByClassName("blink");
+
+        for (var i = 0; i < ele.length; i++) {
+          ele[i].style.visibility =
+            ele[i].style.visibility == "hidden" ? "" : "hidden";
+        }
+      }, blink_speed);
+
+      // scroll back to top on load ----------------------
+
+      // collapse menu----------------------------------
+
+      navMenuDiv.onclick = function () {
+        navMenuDiv.classList.add("hidden");
+      };
+      document.onclick = check;
+      function check(e) {
+        var target = (e && e.target) || (event && event.srcElement);
+
+        //Nav Menu-----------------------------------
+        if (!checkParent(target, navMenuDiv)) {
+          // click NOT on the menu
+          if (checkParent(target, navMenu)) {
+            // click on the link
+            if (navMenuDiv.classList.contains("hidden")) {
+              navMenuDiv.classList.remove("hidden");
+            } else {
+              navMenuDiv.classList.add("hidden");
+            }
+          } else {
+            // click both outside link and outside menu, hide menu
+            navMenuDiv.classList.add("hidden");
+          }
+        }
+      }
+
+      function checkParent(t, elm) {
+        while (t.parentNode) {
+          if (t == elm) {
+            return true;
+          }
+          t = t.parentNode;
+        }
+        return false;
+      }
+    </script>
+  </body>
+</html>
