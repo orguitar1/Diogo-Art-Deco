@@ -47,7 +47,7 @@
 
     <nav
       id="header"
-      class="w-full container mx-auto z-30 bg-white bg-opacity-10 shadow-lg bg-clip-padding top-0 fixed"
+      class="w-full container mx-auto z-30 bg-white bg-opacity-5 hover:bg-myorange hover:bg-opacity-10 transition duration-1000 ease-in-out shadow-lg bg-clip-padding top-0 fixed"
       style="backdrop-filter: blur(10px); font-family: 'Limelight', cursive"
     >
       <div
@@ -55,7 +55,7 @@
       >
         <div class="pl-4 flex items-center">
           <a
-            class="nav-element toggleColour flex items-center bg-clip-text text-gray-100 opacity-90 no-underline hover:no-underline transform hover:scale-100 duration-300 ease-in-out font-bold text-2xl lg:text-4xl"
+            class="nav-element toggleColour flex items-center bg-clip-text text-gray-100 opacity-90 no-underline hover:no-underline transform hover:scale-100 duration-1000 ease-in-out font-bold text-2xl lg:text-4xl"
             href="#"
           >
             <span
@@ -67,7 +67,7 @@
         <div class="block lg:hidden pr-4">
           <button
             id="nav-toggle"
-            class="flex items-center p-1 text-myorange opacity-90 hover:text-myyellow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+            class="flex items-center p-1 text-myorange opacity-90 hover:text-myyellow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-1000 ease-in-out"
           >
             <svg
               class="fill-current h-6 w-6"
@@ -88,7 +88,7 @@
           >
             <li class="mr-3">
               <a
-                class="nav-element block lg:inline-block text-gray-900 opacity-90 no-underline hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-105 duration-300 ease-in-out lg:border-none border-myorange border-b-2 hover:opacity-100"
+                class="nav-element block lg:inline-block text-gray-900 opacity-90 no-underline hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-105 duration-1000 ease-in-out lg:border-none border-myorange border-b-2 hover:opacity-100"
                 href="#aboutme"
                 ><strong>BACK TO TOP</strong></a
               >
@@ -96,7 +96,7 @@
 
             <li class="mr-3">
               <a
-                class="nav-element block lg:inline-block text-gray-900 opacity-90 no-underline hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-105 duration-300 ease-in-out lg:border-none border-myorange border-b-2 hover:opacity-100"
+                class="nav-element block lg:inline-block text-gray-900 opacity-90 no-underline hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-105 duration-1000 ease-in-out lg:border-none border-myorange border-b-2 hover:opacity-100"
                 href="#certs"
                 ><strong>MY WORK</strong></a
               >
@@ -104,7 +104,7 @@
 
             <li class="mr-3">
               <a
-                class="nav-element block lg:inline-block text-gray-900 opacity-90 no-underline hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-105 duration-300 ease-in-out lg:border-none border-myorange border-b-2 hover:opacity-100"
+                class="nav-element block lg:inline-block text-gray-900 opacity-90 no-underline hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-105 duration-1000 ease-in-out lg:border-none border-myorange border-b-2 hover:opacity-100"
                 href="#portfolio"
                 ><strong>BACKGROUND AND SKILLS</strong></a
               >
@@ -112,7 +112,7 @@
 
             <li class="mr-3">
               <a
-                class="nav-element block lg:inline-block text-gray-900 opacity-90 no-underline hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-105 duration-300 ease-in-out lg:border-none border-myorange border-b-2 hover:opacity-100"
+                class="nav-element block lg:inline-block text-gray-900 opacity-90 no-underline hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-105 duration-1000 ease-in-out lg:border-none border-myorange border-b-2 hover:opacity-100"
                 href="resume.html"
                 ><strong>CONTACT</strong></a
               >
@@ -126,17 +126,19 @@
 
     <main>
       <!-- NAME AND TITLE - HOME -------------------------------------------------------->
-      <section class="w-full p-12 overflow-hidden text-center">
+      <section
+        class="w-full p-2 lg:p-12 overflow-hidden text-center items-center"
+      >
         <!-- CONTAINER DIV ------------------------------------------------------------->
 
         <div class="w-full mt-40 flex flex-col">
           <!-- NAME DIV---------------------------------------------------------------->
           <div
-            class="w-full justify-center items-center overflow-y-hidden bg-white hover:bg-myorange shadow-lg rounded-3xl bg-opacity-10 bg-clip-padding p-2 transition duration-700 hover:scale-105 hover:bg-opacity-20 opacity-90 hover:opacity-100"
+            class="w-full justify-center items-center overflow-y-hidden bg-white hover:bg-myorange shadow-lg rounded-sm bg-opacity-5 bg-clip-padding p-2 transition duration-1000 hover:scale-105 hover:bg-opacity-20 opacity-90 hover:opacity-100"
             style="backdrop-filter: blur(10px)"
           >
             <h1
-              class="text-7xl md:text-8xl lg:text-9xl text-gray-900 font-extrabold leading-tight text-center"
+              class="text-7xl md:text-9xl text-gray-900 font-extrabold leading-tight text-center"
               style="font-family: 'Limelight', cursive"
             >
               DIOGO MEIRELES
@@ -146,11 +148,11 @@
           <!-- TITLE DIV --------------------------------------------------->
 
           <div
-            class="w-full justify-center items-center overflow-y-hidden bg-white hover:bg-myorange shadow-lg rounded-3xl bg-opacity-10 bg-clip-padding p-2 transition duration-700 hover:scale-105 hover:bg-opacity-20 opacity-90 hover:opacity-100 mt-5"
+            class="w-10/12 justify-center items-center overflow-y-hidden bg-white hover:bg-myorange shadow-lg rounded-sm bg-opacity-5 bg-clip-padding p-2 transition duration-1000 hover:scale-105 hover:bg-opacity-20 opacity-90 hover:opacity-100 mt-5 mx-auto"
             style="backdrop-filter: blur(10px)"
           >
             <h3
-              class="text-4xl md:text-5xl lg:text-6xl text-gray-900 font-extrabold leading-tight text-center"
+              class="text-2xl md:text-4xl text-gray-900 font-extrabold leading-tight text-center"
               style="font-family: 'Limelight', cursive"
             >
               Freelance Portuguese linguist
@@ -159,7 +161,7 @@
         </div>
       </section>
       <!-- MY WORK -->
-      <section></section>
+      <section class="w-full p-12 overflow-hidden text-center"></section>
 
       <!-- BACKGROUND AND SKILLS --------------------------------------------------------------->
 
@@ -178,19 +180,7 @@
       var navMenuDiv = document.getElementById("nav-content");
       var navMenu = document.getElementById("nav-toggle");
 
-      // blink------------------------------------------
-
-      var blink_speed = 500;
-      var t = setInterval(function () {
-        var ele = document.getElementsByClassName("blink");
-
-        for (var i = 0; i < ele.length; i++) {
-          ele[i].style.visibility =
-            ele[i].style.visibility == "hidden" ? "" : "hidden";
-        }
-      }, blink_speed);
-
-      // scroll back to top on load ----------------------
+      // scroll back to top on load (missing)----------------------
 
       // collapse menu----------------------------------
 
