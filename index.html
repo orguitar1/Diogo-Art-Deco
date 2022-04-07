@@ -43,202 +43,210 @@
       background-image: url('img/golden-deco.jpg');
     "
   >
-    <!-- NAVBAR --------------------------------------------------------------------------->
+    <!-- MAIN GLASSMO CONTAINER FOR ALL BODY --------------------------------------------------->
 
-    <nav
-      id="header"
-      class="w-full container mx-auto z-30 bg-white bg-opacity-5 hover:bg-myorange hover:bg-opacity-10 transition duration-1000 ease-in-out shadow-lg bg-clip-padding top-0 fixed"
-      style="backdrop-filter: blur(10px); font-family: 'Limelight', cursive"
+    <section
+      class="w-full justify-center items-center overflow-y-hidden bg-white bg-myorange shadow-lg bg-clip-padding bg-opacity-30 opacity-90"
+      style="backdrop-filter: blur(20px)"
     >
-      <div
-        class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2"
+      <!-- NAVBAR --------------------------------------------------------------------------->
+
+      <nav
+        id="header"
+        class="w-full container mx-auto z-30 bg-white bg-opacity-5 hover:bg-myorange hover:bg-opacity-10 transition duration-1000 ease-in-out shadow-lg bg-clip-padding top-0 fixed"
+        style="backdrop-filter: blur(10px); font-family: 'Limelight', cursive"
       >
-        <div class="pl-4 flex items-center">
-          <a
-            class="nav-element toggleColour flex items-center bg-clip-text text-gray-100 opacity-90 no-underline hover:no-underline transform hover:scale-100 duration-1000 ease-in-out font-bold text-2xl lg:text-4xl"
-            href="#"
-          >
-            <span
-              class="text-5xl bg-clip-text text-gray-900 font-extrabold bg-transparent"
-              >Olá!</span
-            >
-          </a>
-        </div>
-        <div class="block lg:hidden pr-4">
-          <button
-            id="nav-toggle"
-            class="flex items-center p-1 text-myorange opacity-90 hover:text-myyellow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-1000 ease-in-out"
-          >
-            <svg
-              class="fill-current h-6 w-6"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title>Menu</title>
-              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-            </svg>
-          </button>
-        </div>
         <div
-          class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-cover lg:bg-transparent text-black p-4 lg:p-0 z-20"
-          id="nav-content"
+          class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2"
         >
-          <ul
-            class="text-xl xl:text-2xl list-reset lg:flex justify-end flex-1 items-center"
-          >
-            <li class="mr-3">
-              <a
-                class="nav-element block lg:inline-block text-gray-900 opacity-90 no-underline hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-105 duration-1000 ease-in-out lg:border-none border-myorange border-b-2 hover:opacity-100"
-                href="#aboutme"
-                ><strong>BACK TO TOP</strong></a
-              >
-            </li>
-
-            <li class="mr-3">
-              <a
-                class="nav-element block lg:inline-block text-gray-900 opacity-90 no-underline hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-105 duration-1000 ease-in-out lg:border-none border-myorange border-b-2 hover:opacity-100"
-                href="#certs"
-                ><strong>MY WORK</strong></a
-              >
-            </li>
-
-            <li class="mr-3">
-              <a
-                class="nav-element block lg:inline-block text-gray-900 opacity-90 no-underline hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-105 duration-1000 ease-in-out lg:border-none border-myorange border-b-2 hover:opacity-100"
-                href="#portfolio"
-                ><strong>BACKGROUND AND SKILLS</strong></a
-              >
-            </li>
-
-            <li class="mr-3">
-              <a
-                class="nav-element block lg:inline-block text-gray-900 opacity-90 no-underline hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-105 duration-1000 ease-in-out lg:border-none border-myorange border-b-2 hover:opacity-100"
-                href="resume.html"
-                ><strong>CONTACT</strong></a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-      <hr class="border-b border-myorange opacity-90 my-0 py-0" />
-    </nav>
-    <!-- MAIN CONTAINER  --------------------------------------------------------------------->
-
-    <main>
-      <!-- NAME AND TITLE - HOME -------------------------------------------------------->
-      <section
-        class="w-full p-2 lg:p-12 overflow-hidden text-center items-center"
-      >
-        <!-- CONTAINER DIV ------------------------------------------------------------->
-
-        <div class="w-full mt-40 flex flex-col">
-          <!-- NAME DIV---------------------------------------------------------------->
-          <div
-            class="w-full justify-center items-center overflow-y-hidden bg-white hover:bg-myorange shadow-lg rounded-sm bg-opacity-5 bg-clip-padding p-2 transition duration-1000 hover:scale-105 hover:bg-opacity-20 opacity-90 hover:opacity-100"
-            style="backdrop-filter: blur(10px)"
-          >
-            <h1
-              class="text-7xl md:text-9xl text-gray-900 font-extrabold leading-tight text-center"
-              style="font-family: 'Limelight', cursive"
+          <div class="pl-4 flex items-center">
+            <a
+              class="nav-element toggleColour flex items-center bg-clip-text text-gray-100 opacity-90 no-underline hover:no-underline transform hover:scale-100 duration-1000 ease-in-out font-bold text-2xl lg:text-4xl"
+              href="#"
             >
-              DIOGO MEIRELES
-            </h1>
+              <span
+                class="text-5xl bg-clip-text text-gray-900 font-extrabold bg-transparent"
+                >Olá!</span
+              >
+            </a>
           </div>
-
-          <!-- TITLE DIV --------------------------------------------------->
-
-          <div
-            class="w-10/12 justify-center items-center overflow-y-hidden bg-white hover:bg-myorange shadow-lg rounded-sm bg-opacity-5 bg-clip-padding p-2 transition duration-1000 hover:scale-105 hover:bg-opacity-20 opacity-90 hover:opacity-100 mt-5 mx-auto"
-            style="backdrop-filter: blur(10px)"
-          >
-            <h3
-              class="text-2xl md:text-4xl text-gray-900 font-extrabold leading-tight text-center"
-              style="font-family: 'Limelight', cursive"
+          <div class="block lg:hidden pr-4">
+            <button
+              id="nav-toggle"
+              class="flex items-center p-1 text-myorange opacity-90 hover:text-myyellow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-1000 ease-in-out"
             >
-              Freelance Portuguese linguist
-            </h3>
+              <svg
+                class="fill-current h-6 w-6"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Menu</title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-cover lg:bg-transparent text-black p-4 lg:p-0 z-20"
+            id="nav-content"
+          >
+            <ul
+              class="text-xl xl:text-2xl list-reset lg:flex justify-end flex-1 items-center"
+            >
+              <li class="mr-3">
+                <a
+                  class="nav-element block lg:inline-block text-gray-900 opacity-90 no-underline hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-105 duration-1000 ease-in-out lg:border-none border-myorange border-b-2 hover:opacity-100"
+                  href="#aboutme"
+                  ><strong>BACK TO TOP</strong></a
+                >
+              </li>
+
+              <li class="mr-3">
+                <a
+                  class="nav-element block lg:inline-block text-gray-900 opacity-90 no-underline hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-105 duration-1000 ease-in-out lg:border-none border-myorange border-b-2 hover:opacity-100"
+                  href="#certs"
+                  ><strong>MY WORK</strong></a
+                >
+              </li>
+
+              <li class="mr-3">
+                <a
+                  class="nav-element block lg:inline-block text-gray-900 opacity-90 no-underline hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-105 duration-1000 ease-in-out lg:border-none border-myorange border-b-2 hover:opacity-100"
+                  href="#portfolio"
+                  ><strong>BACKGROUND AND SKILLS</strong></a
+                >
+              </li>
+
+              <li class="mr-3">
+                <a
+                  class="nav-element block lg:inline-block text-gray-900 opacity-90 no-underline hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-105 duration-1000 ease-in-out lg:border-none border-myorange border-b-2 hover:opacity-100"
+                  href="resume.html"
+                  ><strong>CONTACT</strong></a
+                >
+              </li>
+            </ul>
           </div>
         </div>
-      </section>
-      <!-- MY WORK -->
-      <section
-        class="w-full p-2 lg:p-12 overflow-hidden text-center items-center mt-40"
-      >
-        <!--MY WORK SECTION FLEX COL CONTAINER ------------------------------------------------------------------->
+        <hr class="border-b border-gray-900 opacity-90 my-0 py-0" />
+      </nav>
+      <!-- MAIN CONTAINER  --------------------------------------------------------------------->
 
-        <div class="flex flex-col">
-          <!--MY WORK FIRST LEFT COL DIV  ---------------------------------------------->
+      <main>
+        <!-- NAME AND TITLE - HOME -------------------------------------------------------->
+        <section
+          class="w-full p-2 lg:p-12 overflow-hidden text-center items-center"
+        >
+          <!-- CONTAINER DIV ------------------------------------------------------------->
 
-          <div class="flex flex-col md:flex-row">
-            <!-- TEXT DIV -------------------------------------------------------->
+          <div class="w-full mt-40 flex flex-col">
+            <!-- NAME DIV---------------------------------------------------------------->
             <div
-              class="w-full md:w-3/6 text-gray-900 bg-white bg-opacity-5 hover:bg-myorange hover:bg-opacity-10 transition duration-1000 ease-in-out shadow-lg bg-clip-padding h-full w-full"
+              class="w-full justify-center items-center overflow-y-hidden bg-white hover:bg-myorange shadow-lg rounded-sm bg-opacity-5 bg-clip-padding p-2 transition duration-1000 hover:scale-105 hover:bg-opacity-20 opacity-90 hover:opacity-100"
               style="backdrop-filter: blur(10px)"
             >
-              <h3 class="text-2xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-                ea nemo veritatis tempora minima nobis dolor ex tenetur placeat
-                repellat doloribus modi maxime hic voluptatibus voluptatem,
-                blanditiis aliquid autem sunt? <br />
-                <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deserunt corporis voluptas suscipit ad, delectus exercitationem
-                eum error expedita consequuntur incidunt voluptate, vero illum
-                pariatur. Ad repellendus ullam saepe nemo doloremque? <br />
-                <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-                optio, nam unde libero cupiditate id architecto aperiam eaque.
-                Iusto expedita debitis numquam error enim neque, iste beatae
-                exercitationem sequi quas.
+              <h1
+                class="text-7xl md:text-9xl text-gray-900 font-extrabold leading-tight text-center"
+                style="font-family: 'Limelight', cursive"
+              >
+                DIOGO MEIRELES
+              </h1>
+            </div>
+
+            <!-- TITLE DIV --------------------------------------------------->
+
+            <div
+              class="w-10/12 justify-center items-center overflow-y-hidden bg-white hover:bg-myorange shadow-lg rounded-sm bg-opacity-5 bg-clip-padding p-2 transition duration-1000 hover:scale-105 hover:bg-opacity-20 opacity-90 hover:opacity-100 mt-5 mx-auto"
+              style="backdrop-filter: blur(10px)"
+            >
+              <h3
+                class="text-2xl md:text-4xl text-gray-900 font-extrabold leading-tight text-center"
+                style="font-family: 'Limelight', cursive"
+              >
+                Freelance Portuguese linguist
               </h3>
             </div>
-            <!-- SVG IMAGE DIV ------------------------------------------------------------>
-            <div
-              class="w-full md:w-3/6 p-12 overflow-hidden self-start text-center"
-            >
-              <img
-                class="text-myyellow mx-auto w-full md:w-3/5 transform rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:-rotate-12 bg-transparent rounded-3xl rounded-full p-1 mt-40 hover:bg-opacity-50 transition duration-700"
-                style="backdrop-filter: blur(1px)"
-                src="svg/1.svg"
-                alt="computer"
-              />
-            </div>
           </div>
+        </section>
+        <!-- MY WORK -->
+        <section
+          class="w-full p-2 lg:p-12 overflow-hidden text-center items-center mt-40"
+        >
+          <!--MY WORK SECTION FLEX COL CONTAINER ------------------------------------------------------------------->
 
-          <!-- END OF FLEX COL CONTAINER -->
-        </div>
-      </section>
+          <div class="flex flex-col">
+            <!--MY WORK FIRST LEFT COL DIV  ---------------------------------------------->
 
-      <!-- BACKGROUND AND SKILLS --------------------------------------------------------------->
-
-      <section
-        class="w-full p-2 lg:p-12 overflow-hidden text-center items-center"
-      >
-        <!-- FLEX COL CONTAINER ------------------------------------------------------------------->
-
-        <div class="flex flex-col">
-          <!-- FIRST LEFT COL DIV  ---------------------------------------------->
-
-          <div class="flex flex-col md:flex-row">
-            <!--BACKGROUND DIV FOR TEXT DIV ---------------------------------------->
-            <div>
+            <div class="flex flex-col md:flex-row">
               <!-- TEXT DIV -------------------------------------------------------->
+              <div
+                class="w-full md:w-3/6 text-gray-900 bg-white bg-opacity-5 hover:bg-myorange hover:bg-opacity-10 transition duration-1000 ease-in-out shadow-lg bg-clip-padding h-full w-full"
+                style="backdrop-filter: blur(10px)"
+              >
+                <h3 class="text-2xl">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                  ea nemo veritatis tempora minima nobis dolor ex tenetur
+                  placeat repellat doloribus modi maxime hic voluptatibus
+                  voluptatem, blanditiis aliquid autem sunt? <br />
+                  <br />
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Deserunt corporis voluptas suscipit ad, delectus
+                  exercitationem eum error expedita consequuntur incidunt
+                  voluptate, vero illum pariatur. Ad repellendus ullam saepe
+                  nemo doloremque? <br />
+                  <br />
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laborum optio, nam unde libero cupiditate id architecto
+                  aperiam eaque. Iusto expedita debitis numquam error enim
+                  neque, iste beatae exercitationem sequi quas.
+                </h3>
+              </div>
+              <!-- SVG IMAGE DIV ------------------------------------------------------------>
+              <div
+                class="w-full md:w-3/6 p-12 overflow-hidden self-start text-center"
+              >
+                <img
+                  class="text-myyellow mx-auto w-full md:w-3/5 transform rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:-rotate-12 bg-transparent rounded-3xl rounded-full p-1 mt-40 hover:bg-opacity-50 transition duration-700"
+                  style="backdrop-filter: blur(1px)"
+                  src="svg/1.svg"
+                  alt="computer"
+                />
+              </div>
+            </div>
+
+            <!-- END OF FLEX COL CONTAINER -->
+          </div>
+        </section>
+
+        <!-- BACKGROUND AND SKILLS --------------------------------------------------------------->
+
+        <section
+          class="w-full p-2 lg:p-12 overflow-hidden text-center items-center"
+        >
+          <!-- FLEX COL CONTAINER ------------------------------------------------------------------->
+
+          <div class="flex flex-col">
+            <!-- FIRST LEFT COL DIV  ---------------------------------------------->
+
+            <div class="flex flex-col md:flex-row">
+              <!--BACKGROUND DIV FOR TEXT DIV ---------------------------------------->
+              <div>
+                <!-- TEXT DIV -------------------------------------------------------->
+                <div></div>
+              </div>
+              <!-- IMAGE DIV ------------------------------------------------------------>
               <div></div>
             </div>
-            <!-- IMAGE DIV ------------------------------------------------------------>
-            <div></div>
+
+            <!-- END OF FLEX COL CONTAINER -->
           </div>
+        </section>
 
-          <!-- END OF FLEX COL CONTAINER -->
-        </div>
-      </section>
+        <!-- CONTACT -->
+        <section></section>
 
-      <!-- CONTACT -->
-      <section></section>
-
-      <!-- FOOTER -->
-      <section></section>
-    </main>
+        <!-- FOOTER -->
+        <section></section>
+      </main>
+    </section>
     <script>
       /*Toggle dropdown list*/
       /*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
